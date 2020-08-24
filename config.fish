@@ -14,6 +14,7 @@ balias pstorm 'open -a PhpStorm'
 # aliases (git)
 balias g 'git'
 balias gst 'git status'
+balias glog "git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 balias ga 'git add'
 balias gaa 'git add --all'
@@ -22,8 +23,11 @@ balias gc 'git commit'
 balias gc! 'git commit --amend'
 balias gcmsg 'git commit -m'
 
+balias gb 'git branch'
 balias gco 'git checkout'
 
+balias gf 'git fetch'
+balias gf! 'git fetch --prune'
 balias gl 'git pull'
 balias gp 'git push'
 balias gp! 'git push -f'
