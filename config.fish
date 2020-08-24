@@ -28,6 +28,9 @@ balias gl 'git pull'
 balias gp 'git push'
 balias gp! 'git push -f'
 
+# set path (for PhpStorm)
+set -x PATH /usr/local/bin $PATH
+
 # direnv
 direnv hook fish | source
 
